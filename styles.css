@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+.welcome {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+.name{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    color: white;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-top: 0px;
+}
+
+.hero {
+  background-image: url("../assets/img/Evelin-47.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+
+  height: 100vh;
+  color: white;
+}
+.invitation {
+  background-image: url("../assets/img/Evelin-100.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  padding: 40px;
+
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color: blue;
+  text-align: center;
+}
+.iglesia {
+  background-image: url("../assets/img/Evelin-100.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  padding: 40px;
+
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  color: blue;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .welcome {
+        font-size: 35px;
+    }
+}
